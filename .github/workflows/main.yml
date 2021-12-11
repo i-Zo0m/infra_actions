@@ -1,6 +1,7 @@
 jobs:
   tests:
     # «Раннер» — создание изолированного окружения с последней версией Ubuntu 
+    # проверка на pip8
     runs-on: ubuntu-latest
 
     steps:
