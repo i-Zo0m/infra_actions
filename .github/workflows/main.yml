@@ -53,6 +53,7 @@ jobs:
         # Запуск скрипта авторизации на Docker Hub
         uses: docker/login-action@v1 
         with:
+        # хранится в github
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Push to Docker Hub
